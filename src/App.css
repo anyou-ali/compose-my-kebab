@@ -4,39 +4,56 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgb(248, 248, 248);
+}
+
+/* .header__title{
+    
+} */
+
+.app__main{
+    width: 400px;
+    height: 490px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 /* Form.js */
 
-/* form{
-    
-} */
+form{
+    margin-top: 30px;
+    display: flex;
+}
 
 .form__input{
-    width: 200px;
-    height: 20px;
+    width: 250px;
+    height: 30px;
 }
 
 .form__btn{
-    height: 25px;
-    width: 30px;
+    width: 35px;
+    font-size: 1.3rem;
     margin-left: 5px;
 }
 
-/* Menu.js */
+
 
 .menu{
     width: 200px;
     display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin-bottom: 5px;
 }
 
-/* .menu__list{
-    
-} */
+/* List.js */
 
-/* Condiment.js */
-
-.condiment{
+.list{
     display: flex;
     width: 200px;
     justify-content: space-between;
@@ -44,10 +61,10 @@
     margin-top: 10px;
 }
 
-.condiment__list{
+.list__item{
     list-style: none;
 }
 
-/* .condiment__trash-btn{
+/* .list__trash-btn{
 
 } */

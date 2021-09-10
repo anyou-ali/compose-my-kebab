@@ -1,21 +1,23 @@
-import React, {useState} from 'react';
+ import React from 'react';
 import './App.css';
 import Form from './Components/Form';
-import Menu from './Components/Menu';
+import Menu from './Components/Menu/Menu';
 
 function App() {
-  const [inputText, setInputText] = useState("");
-  const [condiments, setCondiments] = useState([]);
-
+  
   return (
     <div className="App">
       <header>
-        <h1>
+        <h1 className="header__title">
           COMPOSE MY KEKAB
         </h1>
       </header>
-      <Form inputText={inputText} setInputText={setInputText} condiments={condiments} setCondiments={setCondiments} />
-      <Menu condiments={condiments} setCondiments={setCondiments} />
+      <section>
+        <div className="app__main">
+          <Form />
+          {/* <Menu /> */}
+        </div>
+      </section>
     </div>
   );
 }
