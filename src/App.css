@@ -41,24 +41,19 @@ form{
     margin-left: 5px;
 }
 
-
+/* Menu.js */
 
 .menu{
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid red;
-    margin-bottom: 5px;
+    margin-left: -20px;
 }
 
-/* List.js */
-
-.list{
-    display: flex;
+.menu__list{
     width: 200px;
+    display: flex;
     justify-content: space-between;
-    margin-left: -40px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: -20px;
+    /* border: 1px solid red; */
 }
 
 .list__item{

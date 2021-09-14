@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 export default class List extends Component {
     render() {
+
+
         return (
             <div className="list">
                 <li className="list__item">
